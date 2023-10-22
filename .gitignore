@@ -3,7 +3,7 @@
 ######################################################
 
 ##############
-### v1.2.0 ###
+### v1.2.1 ###
 ##############
 
 
@@ -24,6 +24,15 @@
 ############ COMMON ##############
 ##################################
 
+#############################
+### DIRECTORIES (IN ROOT) ###
+#############################
+
+## Intention: ignore build files, because they should be re-built anyway upon deployment for a specific environment
+/dist/
+/.local/
+
+
 ##############################
 ### DIRECTORIES (ANYWHERE) ###
 ##############################
@@ -39,16 +48,7 @@ node_modules/
 
 
 #############################
-### DIRECTORIES (IN ROOT) ###
-#############################
-
-## Intention: ignore build files, because they should be re-built anyway upon deployment for a specific environment
-/dist/
-/.local/
-
-
-#############################
-### FILES (IN ROOT) ###
+### FILES (IN ROOT)       ###
 #############################
 
 ## Intention:
@@ -57,7 +57,7 @@ node_modules/
 
 
 ############################
-### FILE PATTERN OR TYPE ###
+### FILES (ANYWHERE)     ###
 ############################
 
 ## Intention: ignore any app secrets stored in .secret files possibly used for testing; this is bad practice but pragmatically may happen on low-risk personal projects.
