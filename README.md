@@ -1,8 +1,5 @@
 # gitignore-boilerplate
 
-v1.2.1
-<br/>
-
 ## What am I?
 
 My personal gitignore boilerplate that works for most projects.
