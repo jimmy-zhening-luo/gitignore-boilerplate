@@ -2,11 +2,10 @@
 
 ## What am I?
 
-My personal git repository template containing my preferred:
+My personal git repository template with my preferred:
 
+- gitignore patterns (generic & per-stack)
 - license
-- gitignore boilerplate
-- branches
 
 
 ## How am I used?
@@ -39,5 +38,3 @@ Further, none of the above basic repo requirements are runtime code nor function
 Therefore, a package dependency, which contains runtime or functional dependencies, and which is a build artifact *of* a repository and by design does not leak any structure of the producer repository, would not be the correct way to manage this repository template.
 
 This is not without one major downside: any updates to the license, .gitignore, or branch names that I want to universally apply, would have to be manually applied to all repos.
-
-Unfortunately, that’s just how it is.
